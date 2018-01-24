@@ -1,5 +1,9 @@
+apply from: "https://raw.githubusercontent.com/adazza/adazza-gradle/master/adazza-bootstrap.gradle"
+
+apply from: "https://raw.githubusercontent.com/adazza/adazza-gradle/${gradleBranch}/adazza-dependency-management.gradle"
 apply from: 'https://raw.githubusercontent.com/adazza/adazza-gradle/master/adazza-core.gradle'
-apply from: 'https://raw.githubusercontent.com/adazza/adazza-gradle/master/adazza-dependency-management.gradle'
+apply from: 'https://raw.githubusercontent.com/adazza/adazza-gradle/master/adazza-scala.gradle'
+
 
 group = 'com.adazza.gradle.scrooge'
 
